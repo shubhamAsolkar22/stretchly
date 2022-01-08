@@ -6,8 +6,7 @@
 	<artifactId>stretchly</artifactId>
 	<version>0.0.1</version>
 	<name>stretchly</name>
-	<description>App for reminding user to take stretch breaks every 20 min.
-</description>
+	<description>App for reminding user to take stretch breaks every 20 min.</description>
 
 	<properties>
 		<maven.compiler.source>11</maven.compiler.source>
