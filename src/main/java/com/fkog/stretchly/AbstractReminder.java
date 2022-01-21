@@ -6,7 +6,6 @@ abstract class AbstractReminder implements Reminder {
 
 	private final int interval;
 	private final TimeUnit timeUnit;
-	private boolean isStopped = false;
 	private boolean isStarted = false;
 
 	AbstractReminder(int minuteInterval,TimeUnit timeUnit) {
