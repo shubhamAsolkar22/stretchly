@@ -57,10 +57,4 @@ public class JswingReminder extends AbstractReminder {
 
 	}
 
-
-	public static void main(String[] args) throws InterruptedException {
-		Reminder r = JswingReminder.getInstance(1,TimeUnit.SECONDS);
-		r.start();
-//		System.out.println(TimeUnit.SECONDS.name());
-	}
 }
