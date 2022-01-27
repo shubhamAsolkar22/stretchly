@@ -57,4 +57,8 @@ public class JswingReminder extends AbstractReminder {
 
 	}
 
+	@Override
+	public String getName() {
+		return "Java Swing Stretchly Reminder App";
+	}
 }
